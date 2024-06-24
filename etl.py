@@ -3,15 +3,15 @@ from sqlalchemy import create_engine
 
 # Database configuration
 db_config = {
-    'user': 'user',
-    'password': 'password',
+    'user': 'your_username',
+    'password': 'your_password',
     'host': 'localhost',
     'port': '5432',
-    'database': 'etl_db'
+    'database': 'database_name'
 }
 
 # CSV file path
-csv_file_path = 'D:\\data-engineering-projects\\elt_project\\data.csv'
+csv_file_path = 'path-to-csv-file'
 
 # Create a connection to the PostgreSQL database
 engine = create_engine(f"postgresql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")

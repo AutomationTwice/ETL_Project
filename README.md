@@ -14,8 +14,8 @@ List all software dependencies and tools required to run your ETL project. Inclu
 ## Setup Instructions
 1. Clone Repository:
 ```
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+[git clone https://github.com/your-username/your-repo.git
+cd your-repo](https://github.com/AutomationTwice/ETL_Project.git)
 ```
 2. Start Docker Containers:
 ```

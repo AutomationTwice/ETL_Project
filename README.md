@@ -119,6 +119,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    - Verify that the CSV file path specified in etl.py is correct.
    - Ensure that the CSV file exists in the data/ directory.
 
-### License
-Specify the license under which your project is distributed.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 

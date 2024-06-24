@@ -54,15 +54,15 @@ python etl.py
    This script extracts data from CSV, transforms it (optional), and loads it into PostgreSQL.
 
 ## Database Management
-###- Accessing Adminer:
+### - Accessing Adminer:
 Open a web browser and go to http://localhost:8080. Use the PostgreSQL login details to manage your database via Adminer.
 
 ### Additional Notes
 Include any additional information that might be relevant or helpful for someone using or contributing to your project.
 
-##Troubleshooting
+## Troubleshooting
 Provide solutions to common issues or errors that users might encounter.
 
-##License
+## License
 Specify the license under which your project is distributed.
 

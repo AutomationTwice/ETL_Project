@@ -84,10 +84,40 @@ python etl.py
 Open a web browser and go to http://localhost:8080. Use the PostgreSQL login details to manage your database via Adminer.
 
 ### Additional Notes
-Include any additional information that might be relevant or helpful for someone using or contributing to your project.
+- Virtual Environment: It's recommended to use a Python virtual environment to manage dependencies. This can prevent conflicts between project-specific packages and globally installed packages.
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+- Data Directory: Ensure your CSV files are placed in the data/ directory. This directory is configured in the etl.py script.
+
+- Database Configuration: The database configuration is specified in the docker-compose.yml file. You can change the PostgreSQL user, password, and database name as needed.
+
+- Adminer Usage: Adminer is a web-based database management tool included in the project. You can access it at http://localhost:8080 to manage your PostgreSQL database.
+
+- Regular Backups: It's a good practice to regularly back up your PostgreSQL database to prevent data loss.
 
 ### Troubleshooting
-Provide solutions to common issues or errors that users might encounter.
+- Docker Containers Not Starting:
+
+   - Ensure Docker is installed and running on your machine.
+   - Check if the ports 5432 (PostgreSQL) and 8080 (Adminer) are available and not being used by other services.
+   - Use the command docker-compose logs to view the logs and diagnose the issue.
+
+- Database Connection Errors:
+
+   - Verify that the PostgreSQL container is running using docker ps.
+   - Ensure the database configuration (username, password, database name) in etl.py matches the configuration in docker-compose.yml.
+
+- Python Dependency Issues:
+
+   - Ensure all required Python packages are installed by running pip install -r requirements.txt.
+   - If using a virtual environment, make sure it is activated.
+
+- CSV File Path Issues:
+
+   - Verify that the CSV file path specified in etl.py is correct.
+   - Ensure that the CSV file exists in the data/ directory.
 
 ### License
 Specify the license under which your project is distributed.

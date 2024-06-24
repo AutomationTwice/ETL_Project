@@ -5,11 +5,11 @@ Provide a brief introduction to your ETL project. Explain its purpose, what data
 
 ## Prerequisites
 List all software dependencies and tools required to run your ETL project. Include links to where each can be obtained.
-Docker
-Visual Studio Code
-PostgreSQL database
-Python 3.x
-Required Python packages (list them with pip install -r requirements.txt)
+- Docker
+- Visual Studio Code
+- PostgreSQL database
+- Python 3.x
+- Required Python packages (list them with pip install -r requirements.txt)
 
 ## Setup Instructions
 1. Clone Repository:
@@ -37,10 +37,10 @@ pip install -r requirements.txt
 ## Project Structure
 Describe the structure of your project directory. Explain where to find important files, such as:
 
-etl.py: Main ETL script
-docker-compose.yml: Docker configuration
-data/: Directory for storing input data
-README.md: Documentation file (this file)
+- etl.py: Main ETL script
+- docker-compose.yml: Docker configuration
+- data/: Directory for storing input data
+- README.md: Documentation file (this file)
 
 ## Running the ETL Process
 1. Prepare Input Data:

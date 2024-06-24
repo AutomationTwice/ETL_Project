@@ -38,10 +38,10 @@ pip install -r requirements.txt
 ## Project Structure
 Describe the structure of your project directory. Explain where to find important files, such as:
 
-.   etl.py: Main ETL script
-.   docker-compose.yml: Docker configuration
-.   data/: Directory for storing input data
-.   README.md: Documentation file (this file)
+>   etl.py: Main ETL script
+>   docker-compose.yml: Docker configuration
+>   data/: Directory for storing input data
+>   README.md: Documentation file (this file)
 
 ## Running the ETL Process
 1. Prepare Input Data:

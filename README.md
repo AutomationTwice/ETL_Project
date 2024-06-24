@@ -3,7 +3,7 @@
 ## Overview
 This ETL (Extract, Transform, Load) project is designed to automate the process of extracting data from CSV files, transforming it as needed, and loading it into a PostgreSQL database. The project leverages Docker for containerization, ensuring a consistent and reproducible environment for running the ETL processes. Additionally, Visual Studio Code is used as the primary development environment, with PostgreSQL serving as the database management system. Python, along with several essential libraries, is utilized to handle data extraction, transformation, and loading.
 
-###Features
+### Features
 - Data Extraction: Automatically reads data from CSV files located in the specified directory.
 - Data Transformation: Includes options to transform data, such as renaming columns, filtering records, and applying data transformations.
 - Data Loading: Efficiently loads the transformed data into a PostgreSQL database.
